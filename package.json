@@ -1,0 +1,35 @@
+{
+  "name": "woiad-page",
+  "version": "0.1.0",
+  "description": "static webapp workflow",
+  "keywords": [
+    "woiad-page",
+    "zce"
+  ],
+  "repository": "woiad/woiad-page",
+  "license": "MIT",
+  "author": "woiad <934480653@qq.com> (https://github.com/woiad/woiad-page.git)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
